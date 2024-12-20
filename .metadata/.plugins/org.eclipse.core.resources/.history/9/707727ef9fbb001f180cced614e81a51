@@ -1,0 +1,5 @@
+package com.domorecode.models;
+
+public class AuthenticationRequest {
+
+}

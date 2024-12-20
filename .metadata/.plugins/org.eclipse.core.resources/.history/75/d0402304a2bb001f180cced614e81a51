@@ -1,0 +1,5 @@
+package com.domorecode.utils;
+
+public class JwtUtils {
+
+}

@@ -1,0 +1,5 @@
+package com.domorecode.model;
+
+public class User {
+
+}

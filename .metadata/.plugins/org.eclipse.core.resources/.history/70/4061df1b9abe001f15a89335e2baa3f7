@@ -1,0 +1,5 @@
+package com.domorecode.batchconfig;
+
+public class CustomerProcessor {
+
+}

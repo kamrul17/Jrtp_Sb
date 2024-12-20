@@ -1,0 +1,5 @@
+package com.domorecode.config;
+
+public class RedisConfig {
+
+}

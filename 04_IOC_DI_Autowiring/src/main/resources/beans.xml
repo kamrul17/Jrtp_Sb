@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<!-- Bean Definitions -->
+	<!-- Autowiring can only applicable for reference variable-->
+	<!--autowire= byName -->
+	<!-- 
+	<bean id="petrolEngine" class="com.domorecode.beans.PetrolEngine"></bean>
+	<bean id="iEngine" class="com.domorecode.beans.DieselEngine"></bean>
+	<bean id="car" class="com.domorecode.beans.Car" autowire="byName"></bean>
+	-->
+
+	<!-- autowire=byType :RECOMMENDED-->
+	<!-- 
+	<bean id="petrolEngine" class="com.domorecode.beans.PetrolEngine"
+	autowire-candidate="false"></bean>
+	<bean id="IEngine" class="com.domorecode.beans.DieselEngine"
+	autowire-candidate="true"></bean>
+	<bean id="car" class="com.domorecode.beans.Car" autowire="byType"></bean>
+	-->
+	<!--autowire= constructor -->
+	<bean id="petrolEngine" class="com.domorecode.beans.PetrolEngine"
+		autowire-candidate="false"></bean>
+	<bean id="IEngine" class="com.domorecode.beans.DieselEngine"
+		autowire-candidate="true"></bean>
+		<!-- or we can also use primary="true" no need to mention autowire-candidate="true" -->
+	<bean id="car" class="com.domorecode.beans.Car" autowire="constructor"></bean>
+	<!--autowire= no -> it says no autowiring is allow -->
+	<!-- 
+		<bean id="petrolEngine" class="com.domorecode.beans.PetrolEngine"
+	autowire-candidate="false"></bean>
+	<bean id="IEngine" class="com.domorecode.beans.DieselEngine"
+	autowire-candidate="true"></bean>
+	<bean id="car" class="com.domorecode.beans.Car" autowire="no"></bean>
+	-->
+</beans>

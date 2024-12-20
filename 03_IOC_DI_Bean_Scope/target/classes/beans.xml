@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<!-- Bean Definitions -->
+	<bean id="petrolEngine" class="com.domorecode.beans.PetrolEngine"></bean>
+	<bean id="dieselEngine" class="com.domorecode.beans.DieselEngine"></bean>
+	<bean id="car" class="com.domorecode.beans.Car" scope="prototype">
+		<!-- for setter injection we use property
+		<property name="IEngine" ref="dieselEngine"></property>-->
+		<constructor-arg name="IEngine" ref="petrolEngine"></constructor-arg>
+
+	</bean>
+
+</beans>

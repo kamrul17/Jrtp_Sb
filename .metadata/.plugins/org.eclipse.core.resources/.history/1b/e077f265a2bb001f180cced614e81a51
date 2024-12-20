@@ -1,0 +1,5 @@
+package com.domorecode.filter;
+
+public class JwtRequestFilter {
+
+}

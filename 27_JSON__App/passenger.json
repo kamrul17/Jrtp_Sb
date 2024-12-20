@@ -1,0 +1,11 @@
+{
+	"name": "jon",
+	"from": "dhanbad",
+	"to": "jamshedpur",
+	"gender": "male",
+	"address": {
+		"city": "dhanbad",
+		"country": "India",
+		"state": "jharkhand"
+	}
+}

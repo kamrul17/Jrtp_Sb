@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename Java project &apos;45_SB_Spring_security_basic_auth&apos; to &apos;46_SB_Spring_security_basic_auth&apos;&#x0D;&#x0A;- Original element: &apos;45_SB_Spring_security_basic_auth&apos;&#x0D;&#x0A;- Renamed element: &apos;45_SB_Spring_security_basic_auth&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename Java project &apos;45_SB_Spring_security_basic_auth&apos;" flags="7" id="org.eclipse.jdt.ui.rename.java.project" input="=45_SB_Spring_security_basic_auth" name="46_SB_Spring_security_basic_auth" references="true" stamp="1734171389970" version="1.0"/>
+</session>

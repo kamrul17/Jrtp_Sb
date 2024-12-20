@@ -1,0 +1,5 @@
+package com.domorecode.controller;
+
+public class DataRestController {
+
+}

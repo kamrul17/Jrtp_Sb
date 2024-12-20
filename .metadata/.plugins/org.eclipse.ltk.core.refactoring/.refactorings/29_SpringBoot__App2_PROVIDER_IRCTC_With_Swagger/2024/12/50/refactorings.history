@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;com.domorecode.binding.request&apos; to &apos;40_SB_MS_WELCOME_API_Using_FEIGN_CLIENT/src/main/java&apos;&#x0D;&#x0A;- Original project: &apos;29_SpringBoot__App2_PROVIDER_IRCTC_With_Swagger&apos;&#x0D;&#x0A;- Destination element: &apos;40_SB_MS_WELCOME_API_Using_FEIGN_CLIENT/src/main/java&apos;&#x0D;&#x0A;- Original element: &apos;29_SpringBoot__App2_PROVIDER_IRCTC_With_Swagger/src/main/java/com.domorecode.binding.request&apos;" description="Copy package" destination="=40_SB_MS_WELCOME_API_Using_FEIGN_CLIENT/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.domorecode.binding.request" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1733832409236" version="1.0"/>
+</session>

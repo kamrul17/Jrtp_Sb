@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: 010_SpringBoot_App_DI
+  datasource:
+    url: jdbc:mysql://localhost:3306/mydb
+    username: myuser
+    password: mypass
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  main:
+    banner-mode: 'console'
+userService:
+  valueAnnotation: gettingValueFromProperties

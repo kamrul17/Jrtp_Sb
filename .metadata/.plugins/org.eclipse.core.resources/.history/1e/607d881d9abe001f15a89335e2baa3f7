@@ -1,0 +1,5 @@
+package com.domorecode.repo;
+
+public interface CustomerRepository {
+
+}

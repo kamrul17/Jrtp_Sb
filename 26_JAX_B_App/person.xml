@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<person>
+	<address>
+		<city>dhanbad</city>
+		<country>India</country>
+		<state>jharkhand</state>
+	</address>
+	<email>jon@j</email>
+	<gender>male</gender>
+	<id>1</id>
+	<name>jon</name>
+</person>

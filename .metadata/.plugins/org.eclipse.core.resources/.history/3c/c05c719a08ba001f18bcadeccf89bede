@@ -1,0 +1,22 @@
+package com.domorecode.config;
+
+import org.springframework.context.annotation.Configuration;
+import org.springframework.security.config.annotation.web.builders.HttpSecurity;
+import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
+import org.springframework.security.web.SecurityFilterChain;
+
+@Configuration
+@EnableWebSecurity
+public class SecurityConfig {
+
+	public SecurityFilterChain securityFilter(HttpSecurity http) throws Exception{
+		
+		http.authorizeHttpRequests((req)->req.requestMatchers("/","/login","/contact").permitAll()
+				.anyRequest().authenticated()
+				).formLogin(form -> form
+		                .loginPage("/login") // Custom login page
+		                .permitAll()
+		            );
+		return http.build();
+	}
+}

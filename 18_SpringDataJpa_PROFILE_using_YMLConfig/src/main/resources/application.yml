@@ -1,0 +1,69 @@
+spring:
+  profiles:
+    active: uat
+
+---
+
+spring:
+  config:
+    activate:
+      on-profile: dev
+  datasource:
+    url: jdbc:mysql://localhost:3306/ashok_it_sprind_data_jpa_store_procedure
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL8Dialect
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format-sql: true
+  main:
+    banner-mode: 'off'
+
+---
+
+spring:
+  config:
+    activate:
+      on-profile: pilot
+  datasource:
+    url: jdbc:mysql://localhost:3306/ashok_it_sprind_data_jpa
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL8Dialect
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format-sql: true
+  main:
+    banner-mode: 'off'
+
+---
+
+spring:
+  config:
+    activate:
+      on-profile: uat
+  datasource:
+    url: jdbc:mysql://localhost:3306/ashok_it_sprind_data_jpa_composite_key
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL8Dialect
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format-sql: true
+  main:
+    banner-mode: 'off'
